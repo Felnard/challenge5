@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Spartan';
+    font-size: 15px;
+}
+main.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div.middle{
+    margin: 5%;
+}
+
+
+div.heading h1{
+    font-family: 'Spartan';
+    font-weight:700;
+    color: hsl(300, 43%, 22%);
+    padding: 30px;
+    margin-top:0;
+    text-align:center;
+}
+
+div.heading p{
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+    line-height:1.7;
+    font-weight: 400;
+    padding:0 25px;
+    margin-bottom: 40px;
+}
+
+/* STARS */
+
+div.stars{
+    text-align: center;
+    font-weight: bold;
+    color:  hsl(300, 43%, 22%);
+}
+
+div.stars1{
+    margin-bottom: 1.2rem;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    padding-top:1.2rem;
+}
+
+div.stars p{
+    margin-bottom: 10px;
+}
+
+div.stars img{
+    margin-right: .5rem;
+}
+
+p{
+    padding:10px 20px;
+}
+
+/* BUYER */
+
+div.buyer{
+    margin-top: 3rem;
+
+}
+div.buyer div{
+    margin-bottom: 1rem;
+    padding: 20px;
+    border-radius: 1rem;
+    position: relative;
+    background-color:hsl(300, 43%, 22%);
+}
+
+div.buyer img{
+    position: relative;
+    left:1.2rem;
+    width:50px;
+    border-radius:50%;
+}
+
+div div.name{
+    position: absolute;
+    top: .4rem;
+    left: 6rem;
+    
+}
+
+div.buyer p{
+    margin:1rem 0;
+    line-height: 1.5;
+    color: hsl(300, 24%, 96%);
+}
+
+.name span:first-of-type{
+    color: white;
+    font-weight: 700;
+}
+.name span:last-of-type{
+   color: hsl(333, 80%, 67%);
+   line-height: 2;
+}
+
