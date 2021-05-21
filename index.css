@@ -59,6 +59,9 @@ div.stars p{
 
 div.stars img{
     margin-right: .5rem;
+    width: 20px;
+    height:20px;
+
 }
 
 p{
@@ -108,3 +111,89 @@ div.buyer p{
    line-height: 2;
 }
 
+
+
+@media(min-width:1000px){
+   
+    div.middle{
+        flex-direction:row;
+        display:flex;
+        height: 100vh;
+        flex-wrap: wrap;
+        margin-top:2%;
+
+    }
+    div.heading{
+        padding:5rem 0;
+        padding-left: 10rem;
+        flex-wrap: wrap;
+        width:40%;
+       
+    }
+    div.heading h1{
+        font-size:3.5rem;
+        text-align:left;
+    }
+
+    div.heading p{
+        text-align:left;
+        font-weight: 500;
+        padding-right:0;
+        font-size: 1rem;
+    }
+
+
+    /* STARS */
+    div.stars{
+        width: 60%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:5rem 1rem;
+    }
+  
+    div.stars1{
+        display: flex;
+        flex-wrap: wrap;
+        width:50%;
+        padding-left:3rem;
+    }
+    div.stars1 img{
+        margin-top: 7px;
+    }
+
+    div.stars1:first-of-type{
+       position:relative;
+       right:50px;
+     }
+     div.stars1:last-of-type{
+        position:relative;
+        right:-50px;
+     }
+
+     /* buyer */
+
+     div.buyer{
+        margin-top: 0;
+         width:100%;
+         display: flex;
+         justify-content: center;
+         align-items:center;
+        
+     }
+
+    div.buyer1{
+        width:24%;
+        margin-right: 2.5rem;
+    }
+     div.buyer1:first-of-type{
+        position:relative;
+        top:-7%;
+    }
+     div.buyer1:last-of-type{
+        position:relative;
+        top:7%;
+        
+    }
+}
